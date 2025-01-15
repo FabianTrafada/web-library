@@ -43,7 +43,7 @@ class UserController extends Controller
                 'email' => $user->email,
                 'phone' => $user->phone,
             ]
-        ], 200);
+        ], 201);
     }
 
     /**
